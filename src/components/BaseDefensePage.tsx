@@ -31,6 +31,8 @@ function GameView() {
       <h2>Updates</h2>
       <p>
         - Added ability to train troops and build towers
+        - Added ability to Build walls. (Debugging wall overlap issues)
+        - Working on designing a bigger map with more strategic options and more enemy types.
       </p>
     </div>
   );
