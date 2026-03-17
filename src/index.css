@@ -268,12 +268,36 @@ footer{
     justify-content: center;
 }
 
+.basedefense h1{
+    text-align: center;
+    color: #AA66EA;
+}
+
 .basedefense h2{
     text-align: center;
 }
 
 .basedefense p{
     text-align: center;
+}
+
+.basedefense .custom-list{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.basedefense .custom-list li::marker{
+    content: '\2756  '; /* Unicode character for  Black Diamond Minus White X */
+}
+
+.basedefense .custom-list li{
+    text-align: center;
+    font-size: large;
+    color: #AA66EA;
+}
+
+.basedefense .custom-list li:hover{
+    color: aquamarine;
 }
 
 /* Team page style */

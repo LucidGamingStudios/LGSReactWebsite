@@ -11,7 +11,7 @@ function GameView() {
 
   return (
     <div className="basedefense">
-      <h2>Welcome to AR Base Defense!</h2>
+      <h1>Welcome to AR Base Defense!</h1>
       <p>
         This game was originally created for an andorid and was then ported over
         to the Hololens2 and Quest 3 for true Augmented Reality. The Idea is to
@@ -29,10 +29,11 @@ function GameView() {
         }}
       />
       <h2>Updates</h2>
-      <p>
-        - Added ability to train troops and build towers
-        - Added ability to Build walls. (Debugging wall overlap issues)
-        - Working on designing a bigger map with more strategic options and more enemy types.
+      <p className="custom-list">
+        <li> Added ability to train troops and build towers.</li>
+        <li> Added ability to Build walls. (Debugging wall overlap issues)</li>
+        <li> Added background music</li>
+        <li> Working on designing a bigger map with more strategic options and more enemy types.</li>
       </p>
     </div>
   );
